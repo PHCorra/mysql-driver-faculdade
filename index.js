@@ -3,7 +3,6 @@ import { selectCustomers, insertCustomers, deleteCustomers, updateCustomers } fr
 <<<<<<< HEAD
 import { selectProducts, insertProducts, deleteProducts, updateProducts } from './database/databaseProdutos.js'
 =======
->>>>>>> 5e13d0825ea5bfbc22bc474cb92b70cb7e57abf6
 
 
 // Starting Immediately invoked function expression (IIFE)
@@ -61,7 +60,4 @@ import { selectProducts, insertProducts, deleteProducts, updateProducts } from '
   const produtos2 = await selectProducts();
   console.log(produtos2);
 
-
-=======
->>>>>>> 5e13d0825ea5bfbc22bc474cb92b70cb7e57abf6
 })();
