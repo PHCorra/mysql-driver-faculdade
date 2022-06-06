@@ -1,6 +1,9 @@
 import * as db from './database/db.js';
 import { selectCustomers, insertCustomers, deleteCustomers, updateCustomers } from './database/databaseContext.js'
+<<<<<<< HEAD
 import { selectProducts, insertProducts, deleteProducts, updateProducts } from './database/databaseProdutos.js'
+=======
+>>>>>>> 5e13d0825ea5bfbc22bc474cb92b70cb7e57abf6
 
 
 // Starting Immediately invoked function expression (IIFE)
@@ -10,7 +13,11 @@ import { selectProducts, insertProducts, deleteProducts, updateProducts } from '
   console.log('Starting Connection');
 
 
+<<<<<<< HEAD
   /* CRUD DE CLIENTES */
+=======
+
+>>>>>>> 5e13d0825ea5bfbc22bc474cb92b70cb7e57abf6
   console.log('Using: INSERT INTO clientes');
   const result = await insertCustomers({ nome: 'Arthur', idade: 18, uf: "RJ" });
   console.log(result);
@@ -27,6 +34,7 @@ import { selectProducts, insertProducts, deleteProducts, updateProducts } from '
   const result3 = await deleteCustomers(5);
   console.log(result3);
 
+<<<<<<< HEAD
   /* CRUD DE PRODUTOS */
 
   console.log('Using: INSERT INTO produtos');
@@ -54,4 +62,6 @@ import { selectProducts, insertProducts, deleteProducts, updateProducts } from '
   console.log(produtos2);
 
 
+=======
+>>>>>>> 5e13d0825ea5bfbc22bc474cb92b70cb7e57abf6
 })();
